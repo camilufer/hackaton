@@ -4,28 +4,25 @@
   <head>
     <meta charset="utf-8">
     <title>Moviemind</title>
-  
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <!-- fonts -->
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Joti+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
   </head>
 
   <body>
-
   <!-- NavBar -->
-  
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper">
         <a href="#" class="responsive-img">
-          <img src="" alt="logo">
+        <a href="">logo</a>
         </a>
         <a href="#" data-activates="mobile-demo" class="button-collapse">
           <i class="material-icons">menu</i>
@@ -34,20 +31,37 @@
           <li><a class="boton modal-trigger" href="#login-modal">Inicia sesión</a></li>
           <li><a class="boton modal-trigger" href="#signup-modal">Registrate</a></li>
         </ul>
-
       </div>
     </nav>
   </div>
-  <div class="nav-wrapper">
-    <ul class="side-nav" id="mobile-demo">
-      <li><a  class="waves-effect waves-light btn boton modal-trigger" href="#login-modal">Inicia sesión</a></li>
-      <li><a a class="waves-effect waves-light btn boton modal-trigger" href="#signup-modal">Registrate</a></li>
 
-      
+<!-- Slider full width -->
+<div class="carousel carousel-slider">
+    <a class="carousel-item" href="#one!"><img src="assets/img/horizontal-fight-club.jpg"></a>
+    <a class="carousel-item" href="#two!"><img src="assets/img/horizontal-fight-club.jpg"></a>
+    <a class="carousel-item" href="#three!"><img src="assets/img/horizontal-fight-club.jpg"></a>
+    <a class="carousel-item" href="#four!"><img src="assets/img/horizontal-fight-club.jpg"></a>
+</div>
 
-    </ul>
-  </div>
+<!-- Slider 1 multiple items-->
+<div class="carousel">
+    <a class="carousel-item" href="#one!"><img src="assets/img/slider-clockwork.jpg"></a>
+    <a class="carousel-item" href="#two!"><img src="assets/img/slider-requiem.jpg"></a>
+    <a class="carousel-item" href="#three!"><img src="assets/img/slider-the-shining.jpg"></a>
+    <a class="carousel-item" href="#four!"><img src="assets/img/slider-donnie-darko.jpg"></a>
+    <a class="carousel-item" href="#five!"><img src="assets/img/slider-black-swan.png"></a>
+    <a class="carousel-item" href="#five!"><img src="assets/img/slider-rear.jpg"></a>
+    <a class="carousel-item" href="#five!"><img src="assets/img/slider-psycho.jpg"></a>
+</div>
 
+<!-- Slider 2 multiple items -->
+<div class="carousel">
+    <a class="carousel-item" href="#one!"><img src="assets/img/slider-series-black.jpg"></a>
+    <a class="carousel-item" href="#two!"><img src="assets/img/slider-series-dekalog.jpg"></a>
+    <a class="carousel-item" href="#three!"><img src="assets/img/slider-series-lost.jpg"></a>
+    <a class="carousel-item" href="#four!"><img src="assets/img/slider-series-stranger.jpg"></a>
+    <a class="carousel-item" href="#five!"><img src="assets/img/slider-series-twin.jpg"></a>
+</div>
 
   <!-- Login Modal -->
   <div id="login-modal" class="modal modal-fixed-footer">
@@ -85,17 +99,17 @@
     </div>
   </div>
 
- 
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+  <!-- assets/js/app.js -->
+  <script type="text/javascript" src="assets/js/app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
   
-          
 
 
 
-
-
-
-    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
-    <script>
+  <script>
   // Initialize Firebase
   var config = {
     apiKey: "AIzaSyDfbBxc6xLfGTPfC4e1Ifz6O7lNljpQd4I",
@@ -106,12 +120,6 @@
     messagingSenderId: "935840093659"
   };
   firebase.initializeApp(config);
-  
 </script>
-    <!--JS FILES--> 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-    <script type="text/javascript" src="assets/js/app.js"></script> 
-
-  </body>
-
+</body>
 </html>
