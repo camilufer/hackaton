@@ -12,7 +12,7 @@
 
 - Proyecto enfocado desde la necesidad del contribuir al género suspenso psicologico / TRILLER PSICOLOGICO por medio de la recomendacion, descripción y analisis de peliculas/series por parte de sus usuarios en una pagina web/responsive de red comunitaria de culto.
 
-##Navegación
+## Navegación
 - plataforma para gente que puede o no logearse:
 			-sin logeo: una pagina web de referencia de peliculas del genero, con puntuacion y 
 descripcion de peliculas.
@@ -31,7 +31,7 @@ descripcion de peliculas.
 (https://ibb.co/eRe4NR)
 
 
-###Testeo Idea
+### Testeo Idea
 Se entrego el sketch a un grupo de personas en conjunto con la tematica del sitio para que pudiera navegar por la plataforma, recibiendo de feedback el cual consiste en:
 les gusto que la navegacion sea simple, pocos pasos para llegar al contenido,
 se entiende
@@ -41,10 +41,10 @@ se entiende
 
 - Distribucion del equipo:
 
-*Maqueta y Diseño:* Verónica Cortés
+*Maqueta y Diseño:* Verónica Cortés y
 										Karen Conley
 
-*Funcionabilidad:* Camila Silva
+*Funcionabilidad:* Camila Silva y
 									Coni Echeverría
 
 
