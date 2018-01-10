@@ -2,3 +2,16 @@ html{
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+body{
+  background-color:#1e1919;
+  color:#fff;
+}
+
+.facebook{
+  float:right;
+}
+
+.facebook .fa-facebook-square{
+  color:#fff;
+  font-size: 30px;
+}
