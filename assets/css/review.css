@@ -3,14 +3,21 @@
 *color botones: #E43627;
 *footer :#000;
 *tipografia:#fff;
-*font-family: 'Source Sans Pro', sans-serif;;
+*font-family: 'Source Sans Pro', sans-serif;
 */
+
+body{
+  background-color:#1e1919;
+  color:#fff;
+}
+
 html{
   font-family: 'Source Sans Pro', sans-serif;
 }
+
 .imgMovie{
-	width: 100%;
-	height: height: 24vh;
+  width: 100%;
+  height: height: 24vh;
   margin-top:  3vh;
 }
 
@@ -18,6 +25,16 @@ h1{
   font-size: 2em;
   font-family: 'Source Sans Pro', sans-serif;
 }
+
 i{
   color:#0D2D4A;
+}
+
+.facebook{
+  float:right;
+}
+
+.facebook .fa-facebook-square{
+  color:#fff;
+  font-size: 30px;
 }
