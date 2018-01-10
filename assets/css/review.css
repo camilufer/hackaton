@@ -1,0 +1,23 @@
+/*
+* color fondo :#0D2D4A
+*color botones: #E43627;
+*footer :#000;
+*tipografia:#fff;
+*font-family: 'Source Sans Pro', sans-serif;;
+*/
+html{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.imgMovie{
+	width: 100%;
+	height: height: 24vh;
+  margin-top:  3vh;
+}
+
+h1{
+  font-size: 2em;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+i{
+  color:#0D2D4A;
+}
