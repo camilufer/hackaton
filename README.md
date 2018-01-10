@@ -5,23 +5,26 @@
 
 **Idea (creación)**
 
-
-- La mayoría de los fanáticos del genero Triller psicológico no tiene espacios dedicados a la información de material y analisis de nuevas obras, por lo que se pensó en idear una plataforma dedicada al culto del género.
+- 
+- La mayoría de los fanáticos del género Triller psicológico no tiene espacios dedicados a la información de material y análisis de nuevas obras, por lo que se pensó en idear una plataforma dedicada al culto del género.
 
 **Producto**
 
-- Proyecto enfocado desde la necesidad del contribuir al género suspenso psicologico / TRILLER PSICOLOGICO por medio de la recomendacion, descripción y analisis de peliculas/series por parte de sus usuarios en una pagina web/responsive de red comunitaria de culto.
+- Proyecto enfocado desde la necesidad del contribuir al género suspenso psicológico / TRILLER PSICOLÓGICO por medio de la recomendación, descripción, análisis y teorías de películas/series por parte de sus usuarios en una página web/responsive de red comunitaria de culto.
+
+**Suspenso Psicológico**
+ *Subgénero del suspenso que tiene como tema central un enfrentamiento o conflicto entre los personales más mental que fisico en que la inteligencia, la intelectualidad y la psicología es el hilo conductor de la historia*
 
 ## Navegación
 - plataforma para gente que puede o no logearse:
-			-sin logeo: una pagina web de referencia de peliculas del genero, con puntuacion y 
-descripcion de peliculas.
-			-con logeo: acceso a poder agregar y recomendar nuevas peliculas.
-									acceso a analizar, debatir y crear temas en relacion a una pelicula.
+			-sin logeo: una página web de referencia de películas del género, con puntuación y 
+descripción de peliculas.
+			-con logeo: acceso a poder agregar y recomendar nuevas películas.
+									acceso a analizar, debatir y crear temas en relación a una película.
 
-- Home principal: presentacion de la pagina, carrusel de peliculas y series ultimas rankeadas 
-- Vista 2: al hacer clic en ver mas se presenta el listado completo de peliculas con ficha de descripcion y puntaje./con logeo boton analisis para entrar en vista 3.
-- Vista 3: Pelicula analisis en detalle. con logeo opcion de conversaciones de teorias y comentarios de debate de analisis de peliculas.
+- Home principal: presentación de la página, carrusel de películas y series últimas rankeadas 
+- Vista 2: al hacer clic en ver más se presenta el listado completo de películas con ficha de descripción y puntaje./con logeo botón analisis para entrar en vista 3.
+- Vista 3: Película análisis en detalle con logeo opción de conversaciones de teorías y comentarios de debate de análisis de películas.
 
 
 
@@ -32,14 +35,13 @@ descripcion de peliculas.
 
 
 ### Testeo Idea
-Se entrego el sketch a un grupo de personas en conjunto con la tematica del sitio para que pudiera navegar por la plataforma, recibiendo de feedback el cual consiste en:
-les gusto que la navegacion sea simple, pocos pasos para llegar al contenido,
-se entiende
+Se entregó el sketch a un grupo de personas en conjunto con la temática del sitio para que pudiera navegar por la plataforma, recibiendo de feedback el cual consiste en:
+*les gusto que la navegacion sea simple, pocos pasos para llegar al contenido, se entiende , es de fácil acceso*
 
 
 **Organización**
 
-- Distribucion del equipo:
+- Distribución del equipo:
 
 *Maqueta y Diseño:* Verónica Cortés y
 										Karen Conley
