@@ -29,9 +29,11 @@ descripción de peliculas.
 
 
 **Sketch**
-[imagen](https://ibb.co/bSQdhR)
 
-[navegacion](https://ibb.co/eRe4NR)
+[idea](https://ibb.co/eRe4NR)
+[navegacion](https://ibb.co/bSQdhR)
+
+
 
 
 ### Testeo Idea
