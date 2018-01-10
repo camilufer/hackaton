@@ -11,7 +11,7 @@ body{
   color:#fff;
 }
 
-html{
+html *{
   font-family: 'Source Sans Pro', sans-serif;
 }
 
