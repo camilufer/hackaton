@@ -1,8 +1,6 @@
-.pageTitle{
-	font-family: 'Joti One', cursive;
+html{
+	font-family: 'Source Sans Pro', sans-serif;
 }
-
-
 
 .facebook-btn {
 	background-color: #4267b2;
@@ -11,5 +9,16 @@
   width: 100%;
   margin-top: -30px;
   margin-bottom: 10px;
+}
 
+.carrusel{
+height: 
+}
+
+h5{
+	display: inline-block;
+}
+
+.verMas{
+	float: right;
 }

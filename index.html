@@ -9,15 +9,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-    <!-- fonts -->
+    <!-- Fonts -->
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- Visualizar íconos de materialize -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Joti+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,400i,600i,700i,900" rel="stylesheet">
   </head>
 
   <body>
   <!-- NavBar -->
   <div class="navbar-fixed">
-    <nav>
+    <nav class="blue-grey darken-4">
       <div class="nav-wrapper">
         <a href="#" class="responsive-img">
         <a href="">logo</a>
@@ -27,39 +30,79 @@
         </a>
         <ul class="hide-on-med-and-down right">
           <li><a class="boton modal-trigger" href="#login-modal">Inicia sesión</a></li>
-          <li><a class="boton modal-trigger" href="#signup-modal">Registrate</a></li>
+          <li><a class="boton modal-trigger" href="#signup-modal">Regístrate</a></li>
         </ul>
       </div>
     </nav>
   </div>
 
-<!-- Slider full width -->
-<div class="carousel carousel-slider">
-    <a class="carousel-item" href="#one!"><img src="assets/img/horizontal-fight-club.jpg"></a>
-    <a class="carousel-item" href="#two!"><img src="assets/img/horizontal-fight-club.jpg"></a>
-    <a class="carousel-item" href="#three!"><img src="assets/img/horizontal-fight-club.jpg"></a>
-    <a class="carousel-item" href="#four!"><img src="assets/img/horizontal-fight-club.jpg"></a>
-</div>
+  <!-- Slider 1: presentación -->
+  <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="assets/img/horizontal-space-odyssey.jpg">
+        <div class="caption center-align">
+          <h3>Un espacio de análisis y debate sobre el suspenso psicológico</h3>
+        </div>
+      </li>
+      <li>
+        <img src="assets/img/horizontal-wide-shut.jpg">
+        <div class="caption left-align">
+          <h3>Interpretaciones argumentales, estéticos y narrativos</h3>
+        </div>
+      </li>
+      <li>
+        <img src="assets/img/horizontal-double-vie.png">
+        <div class="caption right-align">
+          <h3>Plantea teorías, debates y tu propio punto de vista</h3>
+        </div>
+      </li>
+      <li>
+        <img src="assets/img/horizontal-black-swan.jpg">
+        <div class="caption center-align">
+          <h3>Intercambia opiniones y fundamentos con más usuarios</h3>
+        </div>
+      </li>
+    </ul>
+  </div>
 
-<!-- Slider 1 multiple items-->
-<div class="carousel">
-    <a class="carousel-item" href="#one!"><img src="assets/img/slider-clockwork.jpg"></a>
-    <a class="carousel-item" href="#two!"><img src="assets/img/slider-requiem.jpg"></a>
-    <a class="carousel-item" href="#three!"><img src="assets/img/slider-the-shining.jpg"></a>
-    <a class="carousel-item" href="#four!"><img src="assets/img/slider-donnie-darko.jpg"></a>
-    <a class="carousel-item" href="#five!"><img src="assets/img/slider-black-swan.png"></a>
-    <a class="carousel-item" href="#five!"><img src="assets/img/slider-rear.jpg"></a>
-    <a class="carousel-item" href="#five!"><img src="assets/img/slider-psycho.jpg"></a>
-</div>
 
-<!-- Slider 2 multiple items -->
-<div class="carousel">
-    <a class="carousel-item" href="#one!"><img src="assets/img/slider-series-black.jpg"></a>
-    <a class="carousel-item" href="#two!"><img src="assets/img/slider-series-dekalog.jpg"></a>
-    <a class="carousel-item" href="#three!"><img src="assets/img/slider-series-lost.jpg"></a>
-    <a class="carousel-item" href="#four!"><img src="assets/img/slider-series-stranger.jpg"></a>
-    <a class="carousel-item" href="#five!"><img src="assets/img/slider-series-twin.jpg"></a>
-</div>
+  <!-- Slider 2: películas-->
+  <section class="carrusel container">
+    <div class="row">
+      <div class="carousel col s12">
+        <h5 class="left-align">Películas</h5>
+        <!-- botón ver + -->
+        <a class="waves-effect waves-light btn blue-grey darken-4 verMas"><i class="material-icons right">add</i>Ver</a>
+        <!-- fotos películas -->
+        <a class="carousel-item" href="#one!"><img src="assets/img/slider-clockwork.jpg"></a>
+        <a class="carousel-item" href="#two!"><img src="assets/img/slider-requiem.jpg"></a>
+        <a class="carousel-item" href="#three!"><img src="assets/img/slider-the-shining.jpg"></a>
+        <a class="carousel-item" href="#four!"><img src="assets/img/slider-donnie-darko.jpg"></a>
+        <a class="carousel-item" href="#three!"><img src="assets/img/slider-eyes-wide-shut.jpg"></a>
+        <a class="carousel-item" href="#five!"><img src="assets/img/slider-rear.jpg"></a>
+        <a class="carousel-item" href="#five!"><img src="assets/img/slider-psycho.jpg"></a>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Slider 3: series -->
+  <section class="carrusel container">
+    <div class="row">
+      <div class="carousel col s12">
+        <h5 class="left-align">Series</h5>
+        <!-- botón ver + -->
+        <a class="waves-effect waves-light btn blue-grey darken-4 verMas"><i class="material-icons right">add</i>Ver</a>
+        <!-- fotos series -->
+        <a class="carousel-item" href="#one!"><img src="assets/img/slider-series-black.jpg"></a>
+        <a class="carousel-item" href="#two!"><img src="assets/img/slider-series-dekalog.jpg"></a>
+        <a class="carousel-item" href="#three!"><img src="assets/img/slider-series-lost.jpg"></a>
+        <a class="carousel-item" href="#four!"><img src="assets/img/slider-series-stranger.jpg"></a>
+        <a class="carousel-item" href="#five!"><img src="assets/img/slider-series-twin.jpg"></a>
+      </div>
+    </div>
+  </section>
 
   <!-- Login Modal -->
   <div id="login-modal" class="modal modal-fixed-footer">
@@ -70,7 +113,7 @@
           <a href=""></a>
             <h3 class="center-align">Inicia sesión</h3>
             <div class="input-field input-login">
-             <input  type="text" class="validate">
+             <input type="text" class="validate">
              <label >Usuario</label>
            </div>
            <div class="input-field input-login">
@@ -97,29 +140,37 @@
     </div>
   </div>
 
-  <h1>HOLA me gusta la tipografia</h1>
+    <!--Footer-->
+  <footer class="page-footer blue-grey darken-4">
+    <div class="footer-copyright blue-grey darken-4">
+      <div class="container">
+            © 2018 Copyright MovieMind
+        <a class="grey-text text-lighten-4 right" href="#!">Facebook</a>
+      </div>
+    </div>
+  </footer>
 
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="assets/js/materialize.min.js"></script>
-  <!-- assets/js/app.js -->
+  <!-- app.js -->
   <script type="text/javascript" src="assets/js/app.js"></script>
+  <!-- Firebase -->
   <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
   
-
-
-
   <script>
-    // Initialize Firebase
-    var config = {
-      apiKey: "AIzaSyDfbBxc6xLfGTPfC4e1Ifz6O7lNljpQd4I",
-      authDomain: "hackaton-e7b62.firebaseapp.com",
-      databaseURL: "https://hackaton-e7b62.firebaseio.com",
-      projectId: "hackaton-e7b62",
-      storageBucket: "",
-      messagingSenderId: "935840093659"
-    };
-    firebase.initializeApp(config);
-</script>
+
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDfbBxc6xLfGTPfC4e1Ifz6O7lNljpQd4I",
+    authDomain: "hackaton-e7b62.firebaseapp.com",
+    databaseURL: "https://hackaton-e7b62.firebaseio.com",
+    projectId: "hackaton-e7b62",
+    storageBucket: "",
+    messagingSenderId: "935840093659"
+  };
+  firebase.initializeApp(config);
+  </script>
+
 </body>
 </html>

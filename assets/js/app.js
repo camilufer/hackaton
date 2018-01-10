@@ -18,4 +18,7 @@ $('.next').click(function(){
  })
  });
 
-$('.carousel.carousel-slider').carousel({fullWidth: true});
+//slider width
+$(document).ready(function(){
+      $('.slider').slider();
+    });
