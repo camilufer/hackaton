@@ -4,7 +4,17 @@ html *{
 
 body{
   background-color:#1e1919;
-  color:#fff;
+  color:#000;
+}
+
+.citas{
+  font-size: 4em;
+  font-weight: 900;
+  color:#ffc107;
+}
+
+.seccionVer{
+  margin-top: 3em;
 }
 
 .citas{
@@ -29,6 +39,16 @@ body{
   color:#fff;
   font-size: 30px;
 }
+<<<<<<< edaeed64d72d1bbac6db92d6d92a46a1599a9a8f
+
+#logo{
+	width: 6%;
+	height: 2em;
+	display: inline-block;
+  float:left;
+}
+
+=======
 
 #logo{
 	width: 6%;
@@ -37,6 +57,7 @@ body{
   float:left;
 }
 
+>>>>>>> jquery y segundo  modal
 #nombre{
   margin-left: 6px;
   font-family: 'Righteous', cursive;
