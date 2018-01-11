@@ -21,11 +21,10 @@
   <!-- NavBar -->
   <div class="navbar-fixed">
     <nav class="blue-grey darken-4">
-      <div class="nav-wrapper">
-        <!-- logo -->
-        <img class="responsive-img" id="logo" src="assets/img/logo.png" alt="">
-        <p class="bajada">Lorem ipsum dolor sit.</p></li>
-      </div>
+      <div class="nav-wrapper container">
+        <a href="#" class="responsive-img">
+        <a href="">MINDMOVIE</a>
+        </a>
         <a href="#" data-activates="mobile-demo" class="button-collapse">
           <i class="material-icons">menu</i>
         </a>
@@ -43,25 +42,25 @@
       <li>
         <img src="assets/img/horizontal-space-odyssey.jpg">
         <div class="caption center-align">
-          <h3>Un espacio de análisis y debate sobre el suspenso psicológico</h3>
+          <h3 class="citas">Un espacio de análisis y debate sobre el suspenso psicológico</h3>
         </div>
       </li>
       <li>
         <img src="assets/img/horizontal-wide-shut.jpg">
         <div class="caption left-align">
-          <h3>Interpretaciones argumentales, estéticos y narrativos</h3>
+          <h3 class="citas">Interpretaciones argumentales, estéticos y narrativos</h3>
         </div>
       </li>
       <li>
         <img src="assets/img/horizontal-double-vie.png">
         <div class="caption right-align">
-          <h3>Plantea teorías, debates y tu propio punto de vista</h3>
+          <h3 class="citas">Plantea teorías, debates y tu propio punto de vista</h3>
         </div>
       </li>
       <li>
         <img src="assets/img/horizontal-black-swan.jpg">
         <div class="caption center-align">
-          <h3>Intercambia opiniones y fundamentos con más usuarios</h3>
+          <h3 class="citas">Intercambia opiniones y fundamentos con más usuarios</h3>
         </div>
       </li>
     </ul>
@@ -71,10 +70,14 @@
   <!-- Slider 2: películas-->
   <section class="carrusel container">
     <div class="row">
-      <div class="carousel col s12">
-        <h5 class="left-align">Películas</h5>
-        <!-- botón ver + -->
-        <a class="waves-effect waves-light btn blue-grey darken-4 verMas" href="login.html"><i class="material-icons right">add</i>Ver</a>
+      <div class="row">
+        <div class="col s12 seccionVer">
+          <h5 class="left-align">Películas</h5>
+            <!-- botón ver + -->
+          <a class="waves-effect waves-light btn red darken-4 verMas" href="login.html"><i class="material-icons right">add</i>Ver</a>
+          </div>
+        </div>
+        <div class="carousel col s12">
         <!-- fotos películas -->
         <a class="carousel-item" href="#one!"><img src="assets/img/slider-clockwork.jpg"></a>
         <a class="carousel-item" href="#two!"><img src="assets/img/slider-requiem.jpg"></a>
@@ -84,7 +87,6 @@
         <a class="carousel-item" href="#five!"><img src="assets/img/slider-rear.jpg"></a>
         <a class="carousel-item" href="#five!"><img src="assets/img/slider-psycho.jpg"></a>
       </div>
-      
     </div>
   </section>
 
@@ -94,7 +96,7 @@
       <div class="carousel col s12">
         <h5 class="left-align">Series</h5>
         <!-- botón ver + -->
-        <a class="waves-effect waves-light btn blue-grey darken-4 verMas"><i class="material-icons right">add</i>Ver</a>
+        <a class="waves-effect waves-light btn red darken-4 verMas"><i class="material-icons right">add</i>Ver</a>
         <!-- fotos series -->
         <a class="carousel-item" href="#one!"><img src="assets/img/slider-series-black.jpg"></a>
         <a class="carousel-item" href="#two!"><img src="assets/img/slider-series-dekalog.jpg"></a>
@@ -145,8 +147,8 @@
   <footer class="page-footer blue-grey darken-4">
     <div class="footer-copyright blue-grey darken-4">
       <div class="container">
-        © 2018 Copyright MovieMind
-        <a class="facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            © 2018 Copyright MovieMind
+        <a class="facebook right"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
       </div>
     </div>
   </footer>
