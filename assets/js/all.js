@@ -38,11 +38,11 @@ function printMovie(){
 													      '</div>'+
 													      '<div class="col s12 m5 description">'+
 													        '<h4 class="title">'+movieTitle+'</h4>'+
-													        '<p>' + movieYear +'‧'+ movieRating +'‧ Cine dramático/Película de misterio</p>'+
+													        '<p> ' + movieYear +'  ‧  '+ movieRating +'  ‧  Cine dramático/Película de misterio</p>'+
 													        '<p class="summary">' + movieDescription +'</p>'+
-													        '<p class="director"><span>Director:</span>'+ movieDirector + '</p>'+
-													        '<p class="actor"><span>Protagonistas:</span>' + movieActors +'</p>'+
-													        '<p class="year">'+movieReleased +'</p>'+
+													        '<p class="director"><span>Director: </span>'+ movieDirector + '.</p>'+
+													        '<p class="actor"><span>Protagonistas: </span>' + movieActors +'.</p>'+
+													        '<p class="year"><span>Fecha de Realización: </span>'+movieReleased +'.</p>'+
 													        '<i class="material-icons center-align">star star star_half star_border </i>'+
 													        '<br>'+
 													        '<br>'+
