@@ -15,12 +15,26 @@
   </head>
 
   <body>
+  <!-- pluggins --> 
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.11';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
   <!-- NavBar -->
   <div class="navbar">
     <nav class="blue-grey darken-4">
       <div class="nav-wrapper container">
+<<<<<<< Updated upstream
         <img id="logo" class="responsive-img" src="assets/img/logo_nuevo.png" alt="">
         <a id="nombre" href="">MINDMOVIE</a>
+=======
+        <img id="logo" class="responsive-img" src="" alt="logo">
+        <a id="nombre" href="index.html">MINDMOVIE</a>
+>>>>>>> Stashed changes
         <a href="#" data-activates="mobile-demo" class="button-collapse">
           <i class="material-icons">menu</i>
         </a>
@@ -116,28 +130,8 @@
 <!-- comentarios usuarios-->
   <section class="container">
     <div class="row">
-      <div class="left col s7">
-        <div class="row">
-        
-        </div>
-        <div class="row">
-        
-        </div>
-        <div class="row">
-        
-        </div>
-        <div class="row">
-        
-        </div>
-        <div class="row">
-        
-        </div>
-        <div class="row">
-        
-        </div>
-        <div class="row">
-        
-        </div>
+      <div class="left col s10">
+        <div class="fb-comments" data-href="https://camilufer.github.io/hackaton" data-width="100%" data-numposts="6"></div>
       </div>
     </div>
   </section>

@@ -82,3 +82,7 @@ h5{
   color:#fff;
   font-size: 30px;
 }
+
+.esconder{
+  display: none;
+}
