@@ -18,7 +18,7 @@ html *{
 .imgMovie{
   width: 100%;
   height: height: 24vh;
-  margin-top:  3vh;
+  margin-top: 3vh;
 }
 
 h1{
@@ -26,8 +26,16 @@ h1{
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+.subido{
+  font-size: 13px;
+}
+
 i{
   color:#0D2D4A;
+}
+
+li .collection-item .avatar{
+    background-color:#1e1919;
 }
 
 .facebook{

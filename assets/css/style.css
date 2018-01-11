@@ -16,6 +16,15 @@ body{
   margin-bottom: 10px;
 }
 
+#logo{
+	width: 4%;
+	height: auto;
+	display: inline-block;
+}
+
+.bajada{
+}
+
 .carrusel{
 height: 
 }
@@ -26,4 +35,13 @@ h5{
 
 .verMas{
 	float: right;
+}
+
+.facebook{
+  float:right;
+}
+
+.facebook .fa-facebook-square{
+  color:#fff;
+  font-size: 30px;
 }
