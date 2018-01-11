@@ -20,18 +20,23 @@ $( document ).ready(function(){
       verify();
     })
     .catch(function(error){
-    // Handle Errors here.
+    /*
+    * Handle Errors here.
+    */
       var errorCode = error.code;
       var errorMessage = error.message;
-      // ...
+      /*
+      * ...
+      */ 
     });
-    $('#signup-modal').html('<div><div><div><button type="button" class="close" data-dismiss="modal">&times;</button><h4 class="modal-title"></h4><h6>Gracias!</h6></div><div class="content"><div><!-- Mensaje Registro Exitoso --><h4>Se ha completado el registro con éxito!. Recibirás un correo de verificación.</h4><button data-dismiss="modal">Cerrar</button></div></div></div></div>');
+    $('#signup-modal').html('<div class="center-align"><div class="row"><h4 class="modal-title"></h4><h6>Gracias!</h6></div><div class="content"><!-- Mensaje Registro Exitoso --><h4>Se ha completado el registro con éxito!. Recibirás un correo de verificación.</h4></div></div>');
     }
     else {
       alert('Porfavor ingresa un correo válido. \nTu contraseña debe tener al menos 6 caracteres.');
     } 
     });
  
+
    
    /*
    * modal usuarios registrados
@@ -41,10 +46,14 @@ $( document ).ready(function(){
     var passwordLogin = $('#passwordLogin').val();
     firebase.auth().signInWithEmailAndPassword(emailLogin, passwordLogin)
     .catch(function(error) {
-      // Handle Errors here.
+      /*
+    * Handle Errors here.
+    */
       var errorCode = error.code;
       var errorMessage = error.message;
-      // ...
+      /*
+      * ...
+      */
       console.log('errorCode');
       console.log('errorMessage');
     });
@@ -55,7 +64,9 @@ $( document ).ready(function(){
     if (user) {
       console.log('Existe usuario activo');
     
-      // User is signed in. Si el usuario existe se ejecutará lo siguiente
+      /*
+      * User is signed in. Si el usuario existe se ejecutará lo siguiente
+      */ 
       var displayName = user.displayName;
       var email = user.email;
       console.log(user);
@@ -68,11 +79,24 @@ $( document ).ready(function(){
      
 
     } else {
-     // user us singed out
+
+      /*
+      * user us singed out
+     */ 
      console.log('No existe usuario activo');
     }
   });
         
+      function verify(){
+        var user = firebase.auth().currentUser;
+        user.sendEmailVerification().then(function(){
+          //email sent.
+          console.log('enviando correo');
+        }).catch(function(error){
+          //an error happened
+         console.log('error');
+        });
+      }  
 
   
 
