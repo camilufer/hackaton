@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Pelis MovieMind</title>
+    <title>Review | MindMovie</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <link rel="stylesheet" href="assets/css/review.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
@@ -15,21 +15,31 @@
 
   <body>
   <!-- NavBar -->
-  <div class="navbar-fixed">
+  <div class="navbar">
     <nav class="blue-grey darken-4">
-      <div class="nav-wrapper">
-        <a href="#" class="responsive-img">
-        <a href="">logo</a>
-        </a>
+      <div class="nav-wrapper container">
+        <a href="#" class="responsive-img"></a>
+        <a href="">MINDMOVIE</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse">
           <i class="material-icons">menu</i>
         </a>
         <ul class="hide-on-med-and-down right">
-          <li><a class="boton modal-trigger" href="#login-modal">Inicia sesión</a></li>
+          <li><a class="boton modal-trigger" href="#signup-modal"><i class="large material-icons">account_balance</i></a></li>
+          <li></li>
+          <li><a id="menu" class="boton modal-trigger btn btn-floating pulse blue-grey darken-3" href="#login-modal" onclick="$('.tap-target').tapTarget('open')"><i class="large material-icons">add_circle</i></a></li>
           <li><a class="boton modal-trigger" href="#signup-modal">Regístrate</a></li>
         </ul>
       </div>
     </nav>
+  </div>
+
+  <!-- Tap Target Structure MENU -->
+  <div class="tap-target red darken-4" data-activates="menu">
+    <div class="tap-target-content">
+      <h2 class="center-align">Agrega Películas</h2>
+      <p class="center-align">Para que esta red siga creciendo escribenos en:</p>
+      <p class="center-align"><a href="">mindmovie@mindmovie.cl</a></p>
+    </div>
   </div>
 
   <!--contenido sin login-->
@@ -150,7 +160,11 @@
       </div>
     </div>
   </footer>
-
+    <!--menu-->
+    <script type="text/javascript">
+      $('.tap-target').tapTarget('open');
+      $('.tap-target').tapTarget('close');
+    </script>
     <!--JS FILES-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
