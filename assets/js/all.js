@@ -2,6 +2,7 @@
 
 $(document).ready(() => {
 	console.log("cargado")
+	printMovie();
 }); 
 
 //Funcion que imprime las series en la pagina all.html 
