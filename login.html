@@ -35,8 +35,8 @@
       <!--seccion pelis-series-->
       <div class="nav-content">
         <ul class="tabs tabs-transparent">
-          <li class="tab"><a href="#test1">PELICULAS</a></li>
-          <li class="tab"><a class="active" href="#test2">SERIES</a></li>
+          <li class="tab"><a href="#test1" onclick="printMovie()">PELICULAS</a></li>
+          <li class="tab"><a class="active" href="#test2" onclick="printSeries()" ">SERIES</a></li>
         </ul>
       </div>
     </nav>
@@ -51,52 +51,11 @@
   </div>
   </section>
 
+  <!--Aqui se agrega contenido peliculas --> 
+  <section class="container barra" id="movie-box"></section>
+  <!--Aquí se agregan los contenidos de series --> 
+  <section class="container barra" id="serie-box"></section>
 
-  <section class="container barra">
-    <!--boxpelis-->
-    <div class="row box">
-      <div class="col s12 m5">
-        <a href=""><img class="photo z-depth-5" src="assets/img/horizontal-black-swan.jpg" alt=""></a>
-      </div>
-      <div class="col s12 m5 description">
-        <h4 class="title">Cisne Negro</h4>
-        <p>2010 ‧ Cine dramático/Película de misterio</p>
-        <p class="summary">Black Swan es una película estadounidense de suspense psicológico dirigida en 2010 por Darren Aronofsky.</p>
-        <p class="director"><span>Director:</span> Darren Aronofsky</p>
-        <p class="actor"><span>Protagonistas:</span> Natalie Portman, Vincent Cassel, Mila Kunis y Winona Ryder</p>
-        <p class="year"></p>
-        <i class="material-icons center-align">star star star_half star_border </i>
-        <br>
-        <br>
-        <div>
-          <a class="waves-effect waves-light btn red darken-4 trailer"><i class="fa fa-caret-right" aria-hidden="true"></i></i>  Trailer</a>
-          <a class="waves-effect waves-light btn blue darken-4"><i class="fa fa-commenting" aria-hidden="true"></i>  Teorías</a>
-        </div>
-      </div>
-    </div><!--boxpelis-->
-    <hr>
-        <!--boxpelis-->
-    <div class="row box">
-      <div class="col s12 m5">
-        <a href=""><img class="photo z-depth-5" src="assets/img/horizontal-memento.jpg" alt=""></a>
-      </div>
-      <div class="col s12 m5 description">
-        <h4 class="title">Memento</h4>
-        <p>2010 ‧ Cine dramático/Película de misterio</p>
-        <p class="summary">Black Swan es una película estadounidense de suspense psicológico dirigida en 2010 por Darren Aronofsky.</p>
-        <p class="director"><span>Director:</span> Darren Aronofsky</p>
-        <p class="actor"><span>Protagonistas:</span> Natalie Portman, Vincent Cassel, Mila Kunis y Winona Ryder</p>
-        <p class="year"></p>
-        <i class="material-icons center-align">star star star_half star_border </i>
-        <br>
-        <br>
-        <div>
-          <a class="waves-effect waves-light btn red darken-4 trailer"><i class="fa fa-caret-right" aria-hidden="true"></i></i>  Trailer</a>
-          <a class="waves-effect waves-light btn blue darken-4"><i class="fa fa-commenting" aria-hidden="true"></i>  Teorías</a>
-        </div>
-      </div>
-    </div><!--boxpelis-->
-  </section>
   <!--paginacion-->
   <section class="container">
     <div class="row">
@@ -134,6 +93,14 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> 
     <script type="text/javascript" src="assets/js/login.js"></script> 
+    <!-- axios --> 
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!--mi js -->
+    <script type="text/javascript" src="assets/js/data/peliculas.js"></script>
+    <script type="text/javascript" src="assets/js/data/series.js"></script>
+    <script type="text/javascript" src="assets/js/all.js"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+    <script type="text/javascript" src="assets/js/login.js"></script>
     <!-- Firebase -->
     <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
   </body>
