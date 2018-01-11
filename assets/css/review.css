@@ -56,3 +56,15 @@ object-fit: cover;
 width: 20em;
 height: 20em;
 }
+
+#logo{
+  width: 6%;
+  height: auto;
+  display: inline-block;
+  float:left;
+}
+
+#nombre{
+  margin-left: 6px;
+  font-family: 'Righteous', cursive;
+}

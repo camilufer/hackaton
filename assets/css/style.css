@@ -31,17 +31,18 @@ body{
 }
 
 #logo{
-	width: 90px;
-	height: 90px;
+	width: 6%;
+	height: auto;
 	display: inline-block;
   float:left;
 }
 
-.bajada{
+#nombre{
+  margin-left: 6px;
+  font-family: 'Righteous', cursive;
 }
-
 .carrusel{
-height: 
+height:
 }
 
 h5{

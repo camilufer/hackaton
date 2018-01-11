@@ -69,11 +69,22 @@ p.summary{
   font-weight: bolder;
 }
 
-
 .trailer{
   margin-right: 4em;
 }
 
 .paginacion{
   margin-left: 40em;
+}
+
+#logo{
+  width: 6%;
+  height: auto;
+  display: inline-block;
+  float:left;
+}
+
+#nombre{
+  margin-left: 6px;
+  font-family: 'Righteous', cursive;
 }

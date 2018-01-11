@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/css/media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,400i,600i,700i,900" rel="stylesheet">
   </head>
@@ -20,9 +21,9 @@
   <div class="navbar">
     <nav class="blue-grey darken-4">
       <div class="nav-wrapper container">
-        <a href="#" class="responsive-img"></a>
-        <a href="index.html">MINDMOVIE</a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse">
+        <a href="index.html"><img id="logo" class="responsive-img" src="assets/img/logo_nuevo.png" alt=""></a>
+        <a  id="nombre" href="index.html">MINDMOVIE</a>
+        <a href="login.html" data-activates="mobile-demo" class="button-collapse">
           <i class="material-icons">menu</i>
         </a>
         <ul class="hide-on-med-and-down right">
@@ -32,10 +33,11 @@
           <li><a class="boton modal-trigger" href="#signup-modal">Regístrate</a></li>
         </ul>
       </div>
+
       <!--seccion pelis-series-->
       <div class="nav-content">
         <ul class="tabs tabs-transparent">
-          <li class="tab"><a href="#test1" onclick="printMovie()">PELICULAS</a></li>
+          <li class="tab"><a href="#test1" onclick="printMovie()">PELÍCULAS</a></li>
           <li class="tab"><a href="#test2" onclick="printSeries()" ">SERIES</a></li>
         </ul>
       </div>
@@ -46,7 +48,7 @@
   <div class="tap-target red darken-4" data-activates="menu">
     <div class="tap-target-content">
       <h2 class="center-align">Agrega Películas</h2>
-      <p class="center-align">Para que esta red siga creciendo escribenos en:</p>
+      <p class="center-align">Para que esta red siga creciendo escríbenos a:</p>
       <p class="center-align"><a href="">mindmovie@mindmovie.cl</a></p>
     </div>
   </div>
@@ -55,8 +57,6 @@
   <section class="container barra" id="movie-box"></section>
   <!--Aquí se agregan los contenidos de series --> 
   <section class="container barra" id="serie-box"></section>
-
-
 
   <!--footer-->
   <footer class="page-footer blue-grey darken-4">
