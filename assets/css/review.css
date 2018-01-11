@@ -21,6 +21,10 @@ html *{
   margin-top: 3vh;
 }
 
+p .description{
+  font-size: 20px;
+}
+
 h1{
   font-size: 2em;
   font-family: 'Source Sans Pro', sans-serif;
@@ -45,4 +49,10 @@ li .collection-item .avatar{
 .facebook .fa-facebook-square{
   color:#fff;
   font-size: 30px;
+}
+
+.circle{
+object-fit: cover;
+width: 20em;
+height: 20em;
 }
