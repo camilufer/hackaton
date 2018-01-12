@@ -17,8 +17,9 @@ html *{
 
 .imgMovie{
   width: 100%;
-  height: height: 24vh;
+  height: 35vh;
   margin-top: 3vh;
+  object-fit: cover;
 }
 
 p .description{
@@ -53,11 +54,23 @@ width: 20em;
 height: 20em;
 }
 
-#logo{
-  width: 6%;
+#logo3{
+  width: 4%;
   height: auto;
   display: inline-block;
   float:left;
+
+}
+
+@media screen and (max-width: 768px) {
+  #logo3{
+    width: 8%;
+    height: auto;
+    display: inline-block;
+    float:left;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
 }
 
 #nombre{

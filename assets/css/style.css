@@ -48,14 +48,29 @@ form{
   font-size: 30px;
 }
 
-
 #logo{
-	width: 6%;
-	height: 4em;
+	width: 4%;
+	height: auto;
 	display: inline-block;
   float:left;
 }
 
+@media screen and (max-width: 768px) {
+  #logo{
+    width: 8%;
+    height: auto;
+    display: inline-block;
+    float:left;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .citas{
+    font-size: 2.2em;
+    font-weight: 900;
+    color:#ffc107;
+  }
+}
 
 #nombre{
   margin-left: 6px;

@@ -22,13 +22,39 @@ hr{
   margin-top: 5vh;
 }
 
-@media (min-width: 320px) and (max-width: 420px) {
-  .photo{
+#logos{
+  width: 4%;
+  height: auto;
+  display: inline-block;
+  float:left;
+}
+
+@media screen and (max-width: 768px) {
+  #logos{
+    width: 8%;
+    height: auto;
+    display: inline-block;
+    float:left;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+    .photo{
     width: 100%;
     height: 20vh;
     object-fit: cover;
     margin-top: 2em;
   }
+
+  .registrate{
+    font-size: 1em;
+  }
+
+    h2 .registrate{
+    font-size: 1.5em;
+    font-weight: bolder;
+  }
+}
 
   h4 .title{
   font-size: 10px;
@@ -77,12 +103,7 @@ p.summary{
   margin-left: 40em;
 }
 
-#logo{
-  width: 6%;
-  height: auto;
-  display: inline-block;
-  float:left;
-}
+
 
 #nombre{
   margin-left: 6px;
