@@ -19,6 +19,9 @@ El desarrollo de la trama está asociado con la relación del individuo y su ent
 
 Debido a la complejidad del género, es recurrente que el espectador resulte confundido, con inquietudes sobre el desarrollo de la historia e ideas que desea plantear. Los aficionados no tienen espacios dedicados a este fin para debatir u opinar, por lo que decidimos, como buenas amantes del cine, entregarles este lugar donde el análisis personal y la subjetividad son los protagonistas.
 
+**Público objetivo**
+
+Los consumidores de este tipo de cine son principalmente hombres y mujeres jóvenes y adultos, pero el target también tiene un público secundario adolescente minoritario (19 años hacia abajo) que manifiesta tempranamente especial interés por el género.
 
 ## Trabajo en equipo
 
