@@ -29,28 +29,26 @@ $( document ).ready(function(){
     */
       var errorCode = error.code;
       var errorMessage = error.message;
-      /*
-      * ...
-      */ 
+    /*
+    * ...
+    */ 
     });
     $('#signup-modal').html('<div class="center-align"><div class="row"><h4 class="modal-title"></h4><h6>Gracias!</h6></div><div class="content"><!-- Mensaje Registro Exitoso --><h4>Se ha completado el registro con éxito!. Recibirás un correo de verificación.</h4></div></div>');
-    }
-    else {
+    
+    } else {
       alert('Porfavor ingresa un correo válido. \nTu contraseña debe tener al menos 6 caracteres.');
-    } 
+      } 
     });
  
-
-   
-   /*
-   * modal usuarios registrados
-   */
+    /*
+    * modal usuarios registrados
+    */
   $('#start').click(function(){
     var emailLogin = $('#emailLogin').val();
     var passwordLogin = $('#passwordLogin').val();
     firebase.auth().signInWithEmailAndPassword(emailLogin, passwordLogin)
     .catch(function(error) {
-      /*
+    /*
     * Handle Errors here.
     */
       var errorCode = error.code;
@@ -63,11 +61,9 @@ $( document ).ready(function(){
     });
   });
   
-   
   firebase.auth().onAuthStateChanged(function(user) {
     if (user) {
       console.log('Existe usuario activo');
-    
       /*
       * User is signed in. Si el usuario existe se ejecutará lo siguiente
       */ 
@@ -79,39 +75,47 @@ $( document ).ready(function(){
       var isAnonymous = user.isAnonymous;
       var uid = user.uid;
       var providerData = user.providerData;
-     
-     
-
     } else {
-
-      /*
+     /*
       * user us singed out
      */ 
-     console.log('No existe usuario activo');
+      console.log('No existe usuario activo');
     }
   });
         
-      function verify(){
-        var user = firebase.auth().currentUser;
+  function verify(){
+    var user = firebase.auth().currentUser;
         user.sendEmailVerification().then(function(){
-          //email sent.
-          console.log('enviando correo');
-        }).catch(function(error){
-          //an error happened
-         console.log('error');
+      /*
+      *email sent.
+      */
+      console.log('enviando correo');
+      }).catch(function(error){
+      /*
+      * an error happened
+      */
+        console.log('error');
         });
-      } 
+      }
 
-       $('#facebookLogin').click(function() {
-    // autentico con Facebook
+  $('#facebookLogin').click(function() {
+    /*
+    * autentico con Facebook
+    */
     authService.signInWithPopup(provider)
-            .then(function(result) {
-                //todo correcto
-                console.log('autenticado usuario ' + result.user);
-            })
-            .catch(function(error) {
-                console.log('Detectado un error:' + error);
-            });
+    .then(function(result) {
+      console.log('autenticado usuario ' + result.user);
+      })
+      .catch(function(error) {
+      console.log('Detectado un error:' + error);
+      });
     })
 
-      });
+  function aparece(){
+    if (emailVerified = true) {
+      $('.comentario-facebook').removeClass('esconder');
+      }
+    }
+  }); 
+
+

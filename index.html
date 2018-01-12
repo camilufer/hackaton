@@ -14,9 +14,15 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Joti+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,400i,600i,700i,900" rel="stylesheet">
+   
+  
+  
   </head>
 
   <body>
+
+  
+
 
   <!-- NavBar -->
   <div class="navbar-fixed">
@@ -139,7 +145,7 @@
        </div>
       <div class="row">
         <div class="center-align col s12">
-        <a class="waves-effect waves-light btn red darken-4"><i class="fa fa-facebook-square" aria-hidden="true"></i> Regístrate con Facebook</a>
+        <a id="facebookLogin" class="waves-effect waves-light btn red darken-4"><i class="fa fa-facebook-square" aria-hidden="true"></i> Regístrate con Facebook</a>
        </div>
       </div>
        </div>
@@ -211,12 +217,11 @@
   <script type="text/javascript" src="assets/js/login.js"></script>
   <!-- app.js -->
   <script type="text/javascript" src="assets/js/app.js"></script>
+
   <!-- Firebase -->
   <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
-  
   <script>
-
-  // Initialize Firebase
+  // Initialize Firebase correo electronico
   var config = {
     apiKey: "AIzaSyDfbBxc6xLfGTPfC4e1Ifz6O7lNljpQd4I",
     authDomain: "hackaton-e7b62.firebaseapp.com",
@@ -227,6 +232,9 @@
   };
   firebase.initializeApp(config);
   </script>
+ 
+
+
 
 </body>
 </html>
