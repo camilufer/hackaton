@@ -13,6 +13,7 @@ $(document).ready(() => {
 		$('textarea').val('');
 	})
 
+
 }) //document.ready 
 
 //Funcion que imprime las series en la pagina all.html 
@@ -60,7 +61,7 @@ function printMovie(){
 												        '<br>'+
 												        '<br>'+
 												        '<div>'+
-												          '<a class="waves-effect waves-light btn red darken-4 trailer esconder"><i class="fa fa-caret-right" aria-hidden="true"></i></i>  Trailer</a>'+
+												          '<a class="waves-effect waves-light btn red darken-4 btn-trailer esconder modal-trigger" href="#videoTrailer"><i class="fa fa-caret-right" aria-hidden="true"></i></i>  Trailer</a>'+
 												          '<a id="'+ movieId +'" class="waves-effect waves-light btn blue darken-4  btn-movie-teoria" href="review.html"><i class="fa fa-commenting" aria-hidden="true"></i>  Teorías</a>'+
 												        '</div>'+
 												      '</div>'+

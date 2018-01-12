@@ -103,8 +103,6 @@ p.summary{
   margin-left: 40em;
 }
 
-
-
 #nombre{
   margin-left: 6px;
   font-family: 'Righteous', cursive;
@@ -112,4 +110,9 @@ p.summary{
 
 .esconder{
   display: none; 
+}
+
+div .modal-content h4{
+  color: black; 
+  padding-left: 10px;
 }
