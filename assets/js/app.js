@@ -11,7 +11,6 @@ $( document ).ready(function(){
   provider.addScope('user_friends');
     // accedo al servicio de autenticación
   var authService = firebase.auth();
-  aparece();
 
   /*
    * modal usuarios NO registrados
@@ -65,6 +64,7 @@ $( document ).ready(function(){
   firebase.auth().onAuthStateChanged(function(user) {
     if (user) {
       console.log('Existe usuario activo');
+      aparece(user);
       /*
       * User is signed in. Si el usuario existe se ejecutará lo siguiente
       */ 
@@ -72,10 +72,12 @@ $( document ).ready(function(){
       var email = user.email;
       console.log(user);
       var emailVerified = user.emailVerified;
+      console.log(emailVerified)
       var photoURL = user.photoURL;
       var isAnonymous = user.isAnonymous;
       var uid = user.uid;
       var providerData = user.providerData;
+
     } else {
      /*
       * user us singed out
@@ -113,11 +115,21 @@ $( document ).ready(function(){
     })
 
   function aparece(){
-    if (emailVerified = true) {
-      $('.comentario-facebook').removeClass('esconder');
-      $('#registrate').hide();
+    if (e){
+       $(".comentario-facebook").removeClass("esconder"); 
       }
     }
   }); 
+ 
+/*
+   function esconderboton(){
+    if (emailVerified = true){
+      $('#registrate').addClass("esconder");
+      console.log("hola")
+    }else{
+      $('#registrate').show();
+    }
 
+   }
   
+*/
