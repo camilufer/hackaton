@@ -122,14 +122,12 @@ $( document ).ready(function(){
   }); 
  
 /*
-   function esconderboton(){
-    if (emailVerified = true){
-      $('#registrate').addClass("esconder");
-      console.log("hola")
-    }else{
-      $('#registrate').show();
-    }
-
-   }
-  
+ *  function esconderboton(){
+ *   if (emailVerified = true){
+ *     $('#registrate').addClass("esconder");
+ *     console.log("hola")
+ *   }else{
+ *     $('#registrate').show();
+ *   }
+ * }
 */
