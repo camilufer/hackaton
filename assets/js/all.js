@@ -4,17 +4,27 @@ $(document).ready(() => {
 	console.log("cargado")
 	printMovie();
 
+	$("#btn-comentar").click(function(){
+		var comentario= $("#textarea1").val();
+		$(".comentario-usuario").append('<div class="row col s8 cajaComentario">'+
+																			'<p id="user-name"></p>'+
+																      '<p>'+comentario+'</p>'+
+																    '</div>');
+		$('textarea').val('');
+	})
+
 }) //document.ready 
 
 //Funcion que imprime las series en la pagina all.html 
 function printMovie(){
-	console.log("se imprime pelicula")
+	console.log("se imprime pelicula"); 
+	$("#serie-box").empty();
 	$("#movie-box").show(); 
 	$("#serie-box").hide()
 	for (var i in peliculas){
 		var titleMovie= peliculas[i].title; 
 		var trailerMovie= peliculas[i].trailer;
-		axios.get('http://www.omdbapi.com?t='+ titleMovie + '&apikey=a7a10611')
+		axios.get('https://www.omdbapi.com?t='+ titleMovie + '&apikey=a7a10611')
 		.then((response) => {
 			let titleForId= peliculas[i].title;
 			let movieTitle= response.data.Title; 
@@ -50,7 +60,7 @@ function printMovie(){
 												        '<br>'+
 												        '<br>'+
 												        '<div>'+
-												          '<a class="waves-effect waves-light btn red darken-4 trailer"><i class="fa fa-caret-right" aria-hidden="true"></i></i>  Trailer</a>'+
+												          '<a class="waves-effect waves-light btn red darken-4 trailer esconder"><i class="fa fa-caret-right" aria-hidden="true"></i></i>  Trailer</a>'+
 												          '<a id="'+ movieId +'" class="waves-effect waves-light btn blue darken-4  btn-movie-teoria" href="review.html"><i class="fa fa-commenting" aria-hidden="true"></i>  Teorías</a>'+
 												        '</div>'+
 												      '</div>'+
@@ -65,11 +75,13 @@ function printMovie(){
 
 function printSeries(){
 	console.log("se imprime serie")
+	$("#movie-box").empty(); 
+	console.log("limpió")
 	$("#movie-box").hide();
 	$("#serie-box").show(); 
 	for (var i in series){
 		var titleMovie= series[i].title; 
-		axios.get('http://www.omdbapi.com?t='+ titleMovie + '&apikey=a7a10611')
+		axios.get('https://www.omdbapi.com?t='+ titleMovie + '&apikey=a7a10611')
 		.then((response) => {
 			let seriesTitle= response.data.Title; 
 			let seriesActors= response.data.Actors;
@@ -102,7 +114,7 @@ function printSeries(){
 												        '<br>'+
 												        '<br>'+
 												        '<div>'+
-												          '<a class="waves-effect waves-light btn red darken-4 btn-trailer"><i class="fa fa-caret-right" aria-hidden="true"></i></i>  Trailer</a>'+
+												          '<a class="waves-effect waves-light btn red darken-4 btn-trailer esconder"><i class="fa fa-caret-right" aria-hidden="true"></i></i>  Trailer</a>'+
 												          '<a class="waves-effect waves-light btn blue darken-4 btn-teorias" href="review.html"><i class="fa fa-commenting" aria-hidden="true"></i>  Teorías</a>'+
 												        '</div>'+
 												      '</div>'+

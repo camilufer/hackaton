@@ -109,3 +109,7 @@ p.summary{
   margin-left: 6px;
   font-family: 'Righteous', cursive;
 }
+
+.esconder{
+  display: none; 
+}
