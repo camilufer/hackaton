@@ -1,7 +1,7 @@
 # MindMovie
 
 
- ### Producto
+ ## Producto
 
 "MindMovie" es un proyecto que ofrece un espacio de análisis y debate entre cinéfilos amantes del género "suspenso psicológico". Es un lugar de encuentro y discusión, de intercambio de ideas y puntos de vista.
 
@@ -38,9 +38,9 @@ Para el testeo se entregó el sketch a un grupo de personas en conjunto con la t
 
 ## Navegación
 - El site ofrece la posibilidad de loguearse o no.
-		- Sin logeo: una página web de referencia de películas del género, con puntuación y descripción de películas.
-		- Con logeo: acceso a poder agregar y recomendar nuevas películas para analizar y debatir con más usuarios
-- Home principal: presentación de la página y su objetivo, carrusel de películas y series disponibles para conversar
-- Vista 2: al hacer click en "ver más" se presenta el listado completo de películas con ficha de descripción y puntaje
-- Botón de análisis para entrar en vista 3 (con logueo).
+a  Sin logeo: una página web de referencia de películas del género, con puntuación y descripción de películas.
+b  Con logeo: acceso a poder agregar temas y recomendar nuevas películas para analizar y debatir con más usuarios. Esto se hace, en esta primera versión del producto, mediante correo electrónico, debido a que debe pasar por un filtro de contenido por parte de el/los moderadores de la página, para así garantizar que lo que el usuario envía corresponde a la línea editorial de la web y tener un correcto control sobre el contenido. Además el usuario podrá entrar a ver los temas que se están discutiendo (botón "teorías") y valorizar su contenido. El logueo también permite acceder a contenido con spoilers (texto que anticipa la trama de una película).
+- Home principal: Contiene una presentación de la página y su objetivo, y dos carrusel de varios elementos que muestra algunas de las películas y series disponibles para conversar.
+- Vista 2: Al hacer click en "Ver más" se presenta el listado completo de películas/series con ficha de descripción y puntaje.
+- Botón de análisis (botón "ver teorías") para entrar en vista 3 (con logueo).
 - Vista 3: Película específica y análisis de temas planteados por los usuarios

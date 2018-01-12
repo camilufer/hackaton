@@ -7,6 +7,10 @@ $( document ).ready(function(){
   $('.slider').slider();
   $('.carousel').carousel({duration: 500, shift: 40});
   $('.next').click(function(){})
+  var provider = new firebase.auth.FacebookAuthProvider();
+  provider.addScope('user_friends');
+    // accedo al servicio de autenticación
+  var authService = firebase.auth();
 
   /*
    * modal usuarios NO registrados
@@ -96,23 +100,18 @@ $( document ).ready(function(){
           //an error happened
          console.log('error');
         });
-      }  
+      } 
 
-  
+       $('#facebookLogin').click(function() {
+    // autentico con Facebook
+    authService.signInWithPopup(provider)
+            .then(function(result) {
+                //todo correcto
+                console.log('autenticado usuario ' + result.user);
+            })
+            .catch(function(error) {
+                console.log('Detectado un error:' + error);
+            });
+    })
 
-     
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-});
+      });
