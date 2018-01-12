@@ -11,6 +11,7 @@ $( document ).ready(function(){
   provider.addScope('user_friends');
     // accedo al servicio de autenticación
   var authService = firebase.auth();
+  aparece();
 
   /*
    * modal usuarios NO registrados
@@ -114,8 +115,9 @@ $( document ).ready(function(){
   function aparece(){
     if (emailVerified = true) {
       $('.comentario-facebook').removeClass('esconder');
+      $('#registrate').hide();
       }
     }
   }); 
 
-
+  
