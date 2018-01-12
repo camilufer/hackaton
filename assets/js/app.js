@@ -115,8 +115,8 @@ $( document ).ready(function(){
     })
 
   function aparece(){
-    if (e){
-       $(".comentario-facebook").removeClass("esconder"); 
+    if (emailVerified = true){
+       $("#registrate").empty(); 
       }
     }
   }); 
