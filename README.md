@@ -1,3 +1,4 @@
+![mindmovieapp](https://user-images.githubusercontent.com/32283134/38226695-54041938-36d1-11e8-8158-1f9808de2ba4.png)
 # MindMovie
 
 
